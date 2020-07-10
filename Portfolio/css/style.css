@@ -2104,7 +2104,8 @@ span.error {
   margin-bottom: 10px;
 }
 
-.shrinkcarousel {
-    height: 76px;
-    width: 76px;  
-}
+.sql-image {
+    width: 76px;
+    height: auto;
+    display: block;
+}  
