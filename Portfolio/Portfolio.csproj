@@ -86,6 +86,7 @@
     <Content Include="images\kenneth-cranford-1900x1432.jpg" />
     <Content Include="images\kenneth-cranford-804x818.jpg" />
     <Content Include="images\kenneth-cranford.jpg" />
+    <Content Include="images\Placeholder.png" />
     <Content Include="images\sql-server.png" />
     <Content Include="images\sumofallfears.jpg" />
     <Content Include="images\sunSet.jpg" />
