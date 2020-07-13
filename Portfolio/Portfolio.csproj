@@ -80,6 +80,7 @@
     <Content Include="css\vendor\icomoon\style.css" />
     <Content Include="css\vendor\jquery.fancybox.min.css" />
     <Content Include="css\vendor\owl.carousel.min.css" />
+    <Content Include="images\cat.jpg" />
     <Content Include="images\divider.png" />
     <Content Include="images\dotted_light.png" />
     <Content Include="images\fizzbuzz.jpg" />
@@ -96,7 +97,6 @@
     <Content Include="images\svg\004-percentage.svg" />
     <Content Include="images\svg\005-line-chart.svg" />
     <Content Include="images\svg\006-goal.svg" />
-    <Content Include="images\tacocat.jpg" />
     <Content Include="images\work_1_a_full.jpg" />
     <Content Include="images\work_1_full.jpg" />
     <Content Include="images\work_1_md.jpg" />
