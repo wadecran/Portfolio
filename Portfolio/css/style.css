@@ -2108,4 +2108,15 @@ span.error {
     width: 76px;
     height: auto;
     display: block;
-}  
+}
+
+#home-section #content-desktop {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+
+    #home-section #content-desktop {
+        display: none;
+    }
+}
