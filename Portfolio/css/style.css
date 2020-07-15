@@ -2118,7 +2118,7 @@ span.error {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
 
     #content-desktop {
         display: none;
