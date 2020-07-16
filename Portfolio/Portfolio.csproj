@@ -83,6 +83,7 @@
     <Content Include="images\cat.jpg" />
     <Content Include="images\divider.png" />
     <Content Include="images\dotted_light.png" />
+    <Content Include="images\favicon.ico" />
     <Content Include="images\fizzbuzz.jpg" />
     <Content Include="images\kenneth-cranford-1900x1432.jpg" />
     <Content Include="images\kenneth-cranford-804x818.jpg" />
