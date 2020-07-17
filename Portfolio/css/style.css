@@ -78,7 +78,7 @@ a, a:hover {
   left: 0;
   right: 0;
   bottom: 0px;
-  /*z-index: -1;*/
+  z-index: -1;
   height: 400px;
 }
 
@@ -712,7 +712,7 @@ a, a:hover {
   background: -webkit-gradient(left top, left bottom, color-stop(79%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.05)), color-stop(100%, black));
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 79%, rgba(0, 0, 0, 0.05) 80%, black 100%);
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 79%, rgba(0, 0, 0, 0.05) 80%, black 100%);
-  /*background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 79%, rgba(0, 0, 0, 0.05) 80%, black 100%);*/
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 79%, rgba(0, 0, 0, 0.05) 80%, black 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(79%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.05)), to(black));
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 79%, rgba(0, 0, 0, 0.05) 80%, black 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
@@ -1096,7 +1096,7 @@ a, a:hover {
 .isotope .item {
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
-  /*-ms-transition-duration: 0.8s;*/
+  -ms-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
@@ -1104,7 +1104,7 @@ a, a:hover {
 .isotope {
   -webkit-transition-property: height, width;
   -moz-transition-property: height, width;
-  /*-ms-transition-property: height, width;*/
+  -ms-transition-property: height, width;
   -o-transition-property: height, width;
   transition-property: height, width;
 }
@@ -1112,7 +1112,7 @@ a, a:hover {
 .isotope .item {
   -webkit-transition-property: -webkit-transform, opacity;
   -moz-transition-property: -moz-transform, opacity;
-  /*-ms-transition-property: -ms-transform, opacity;*/
+  -ms-transition-property: -ms-transform, opacity;
   -o-transition-property: top, left, opacity;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
