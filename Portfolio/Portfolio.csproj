@@ -80,6 +80,7 @@
     <Content Include="css\vendor\icomoon\style.css" />
     <Content Include="css\vendor\jquery.fancybox.min.css" />
     <Content Include="css\vendor\owl.carousel.min.css" />
+    <Content Include="images\blogimg.jpg" />
     <Content Include="images\cat.jpg" />
     <Content Include="images\divider.png" />
     <Content Include="images\dotted_light.png" />
@@ -140,7 +141,7 @@
     <Content Include="css\vendor\icomoon\selection.json" />
     <Content Include="images\.DS_Store" />
     <None Include="packages.config" />
-    <Content Include="src\wc-resume.pdf" />
+    <Content Include="src\Resume.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
