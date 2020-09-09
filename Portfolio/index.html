@@ -332,7 +332,7 @@
 					<div class="row justify-content-between">
 
 						<div class="col-md-6">
-							<form method="post" class="form-outline-style-v1" id="contactForm">
+							<form>
 								<div class="form-group row mb-0">
 
 									<div class="col-lg-6 form-group gsap-reveal">
@@ -436,6 +436,7 @@
 		$("#btnSend").on("click", function () {
 			var template_params = {
 				"body": $("#message").val(),
+				"subject":"A message send from your portfolio.",
 				"client_name": $("#name").val(),
 				"client_email": $("#email").cal()
 			}
