@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="css/vendor/aos.css">
 	<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
 	<link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
-
+	
 
 
 
@@ -143,7 +143,8 @@
 								In my free time, I enjoy learning whenever the opportunity presents itself, and study with resources such as <a href="https://www.udemy.com/" class="highlight link" target="_blank">Udemy</a>
 								and <a href="https://www.coderfoundry.com" class="highlight link" target="_blank">Coder Foundry</a>.
 								Outside of programming I play pool competitively with the <a class="highlight link" href="https://poolplayers.com/" target="_blank">
-									American Pool-players Association</a>. The concentration and precision required in such a competition is exactly the type of situations I love to immerse myself in.
+									American Pool-players Association
+								</a>. The concentration and precision required in such a competition is exactly the type of situations I love to immerse myself in.
 							</p>
 							<p class="gsap-reveal"><a href="src/Resume.pdf" class="btn btn-outline-pill btn-custom-light" target="_blank">Download my resume</a></p>
 						</div>
@@ -171,17 +172,17 @@
 											<p>Blog</p>
 										</div>
 									</div>
-									<img src="images/blogimg.jpg" class="lazyload  img-fluid" id ="portfolio-img" alt="Images" />
+									<img src="images/blogimg.jpg" class="lazyload  img-fluid" id="portfolio-img" alt="Images" />
 									<div class="portfolio-item-content" id="content-mobile">
 										<h3>Blog</h3>
-										
+
 									</div>
 								</a>
 
 							</div>
-						
 
-						
+
+
 							<div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
 								<a href="https://wc-bugtracker.azurewebsites.net/" class="portfolio-item isotope-item gsap-reveal-img">
 									<div class="overlay">
@@ -189,7 +190,7 @@
 											<h3>Bug Tracker</h3>
 										</div>
 									</div>
-									<img src="images/bugtracker.jpg" class="lazyload  img-fluid" id ="portfolio-img" alt="Images" />
+									<img src="images/bugtracker.jpg" class="lazyload  img-fluid" id="portfolio-img" alt="Images" />
 									<div class="portfolio-item-content" id="content-mobile">
 										<h3>Bug Tracker</h3>
 									</div>
@@ -221,7 +222,7 @@
 											<p>Coding Challenge</p>
 										</div>
 									</div>
-									<img src="images/cat.jpg" class="lazyload  img-fluid" id ="portfolio-img"  alt="Images" />
+									<img src="images/cat.jpg" class="lazyload  img-fluid" id="portfolio-img" alt="Images" />
 									<div class="portfolio-item-content" id="content-mobile">
 										<h3>TacoCat</h3>
 										<p>Coding Challenge</p>
@@ -236,7 +237,7 @@
 											<p>Coding Challenge</p>
 										</div>
 									</div>
-									<img src="images/sunSet.jpg" class="lazyload  img-fluid" id ="portfolio-img" alt="Images" />
+									<img src="images/sunSet.jpg" class="lazyload  img-fluid" id="portfolio-img" alt="Images" />
 									<div class="portfolio-item-content" id="content-mobile">
 										<h3>Sunset Hills</h3>
 										<p>Coding Challenge</p>
@@ -252,7 +253,7 @@
 											<p>Coding Challenge</p>
 										</div>
 									</div>
-									<img src="images/fizzbuzz.jpg" class="lazyload  img-fluid"id ="portfolio-img"  alt="Images" />
+									<img src="images/fizzbuzz.jpg" class="lazyload  img-fluid" id="portfolio-img" alt="Images" />
 									<div class="portfolio-item-content" id="content-mobile">
 										<h3>FizzBuzz</h3>
 										<p>Coding Challenge</p>
@@ -269,7 +270,7 @@
 											<p>Coding Challenge</p>
 										</div>
 									</div>
-									<img src="images/sumofallfears.jpg" class="lazyload  img-fluid" id ="portfolio-img" alt="Images" />
+									<img src="images/sumofallfears.jpg" class="lazyload  img-fluid" id="portfolio-img" alt="Images" />
 									<div class="portfolio-item-content" id="content-mobile">
 										<h3>Sum of All Fears</h3>
 										<p>Coding Challenge</p>
@@ -350,7 +351,7 @@
 								</div>
 								<div class="form-group row gsap-reveal">
 									<div class="col-md-12 d-flex align-items-center">
-										<input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Send Message" id="btnSend">
+										<button type="button" class="btn btn-outline-pill btn-custom-light mr-3" id="btnSend">Send Message</button>
 										<span class="submitting"></span>
 									</div>
 								</div>
@@ -405,10 +406,11 @@
 							Copyright &copy;
 							<script>
 								document.write(new Date().getFullYear());
-							</script> All rights reserved | This template is made with <i class="icon-heart"
-																			aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib. Customized by Wade Cranford</a>
+							</script> All rights reserved | This template is made with
+							<i class="icon-heart"
+							   aria-hidden="true"></i> by
+							<a href="https://colorlib.com" target="_blank">Colorlib. Customized by Wade Cranford</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-
 						</p>
 
 					</div>
@@ -428,21 +430,26 @@
 
 	<script src="js/scripts-dist.js"></script>
 	<script src="js/main.js"></script>
-	<script type="text/javascript">
-		(function () {
+	<script type="text/javascript"
+			src="//cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+
+	<script>
+		$(document).ready(function () {
 			emailjs.init('user_7Jgrl6trPL0GcEaSlO1wz');
-		})();
+		});
 
 		$("#btnSend").on("click", function () {
 			var template_params = {
+				"subject": "A message sent from your portfolio.",
 				"body": $("#message").val(),
-				"subject":"A message send from your portfolio.",
 				"client_name": $("#name").val(),
-				"client_email": $("#email").cal()
-			}
+				"client_email": $("#email").val()
+			};
 			var service_id = "default_service";
 			var template_id = "template1";
 			emailjs.send(service_id, template_id, template_params);
+			$('#form-message-success').fadeIn();
 		});
 
 	</script>
